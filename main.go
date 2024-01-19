@@ -28,7 +28,7 @@ func main() {
 	if runtime.GOOS == "windows" {
 		host = "C:\\Windows\\System32\\drivers\\etc\\hosts"
 	}
-	fmt.Printf("将以下行粘贴到%s中\n", host)
+	fmt.Printf("copy following lines to %s\n", host)
 	for _, domain := range urls {
 		do(domain)
 	}
