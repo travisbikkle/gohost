@@ -40,3 +40,8 @@ copy fowllowing lines to C:\Windows\System32\drivers\etc\hosts
 ```bash
 ipconfig /flushdns
 ```
+
+## You might also want to set
+```bash
+git config --global http.sslVerify "false"
+```
